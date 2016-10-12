@@ -7,7 +7,7 @@ export default {
 				return;
 			}
 			if (!el.contains(e.target) && typeof props.value == 'function') {
-				props.value();
+				props.value(props.arg);
 			}
 		}
 		window.addEventListener('click', el.clickCatcher);
