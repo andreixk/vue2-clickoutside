@@ -10,10 +10,11 @@ So I created a new one.
 Usage:
 
 ```javascript
+//in your main.js or App.vue:
 import VueClickoutside from './clickoutside';
 Vue.use(VueClickoutside);
 
-//...component definition...
+//in your component definition:
 	methods : {
 		someFunction () {
 			console.log('clicked outside');
